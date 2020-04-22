@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('gblock1').hover(
+		function(){
+			$(this).find('descr').fadeIn();
+		},
+		function(){
+			$(this).find('descr').fadeOut();
+		}
+		);
+});
